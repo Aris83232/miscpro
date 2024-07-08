@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "DM Mono", monospace;
+    background-color: antiquewhite;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    gap: 25px;
+    font-size: 25px;
+    align-items: center;
+}
+
+input {
+    background-color: lightgray;
+    outline: none;
+    border: 1px solid black;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+button {
+    border: none;
+    border-radius: 15px;
+    font-size: 25px;
+    padding: 15px 25px 15px 25px;
+    background-color: tomato;
+}
+
+button:hover {
+    background-color: rgb(124, 30, 30);
+    color: white;
+    transition: .15s;
+}
+ #number {
+    font-size: 3em;
+ }
